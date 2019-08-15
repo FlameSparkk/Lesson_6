@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "FontAwesome";
+    src: url(../fonts/FontAwesome.ttf);
+}
+
+@font-face {
+    font-family: "BebasNeueBook";
+    src: url(../fonts/BebasNeueBook.otf);
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header,
+.main {
+    padding-left: 211px;
+    padding-right: 211px;
+}
+
+.header1 {
+    padding-left: 683px;
+}
+
+.header1__logo,
+.header1__lines {
+    padding-left: 345px;
+}
+
+.header1__lines {
+    margin-top: 30px;
+}
+
+.header1__text2 {
+    color: #22252c;
+    font-family: "Bebas Neue Book";
+    font-size: 92px;
+    font-weight: 400;
+}
+
+.header__line1 {
+    margin-top: 53px;
+    margin-bottom: 68px;
+}
+
+.header__line2 {
+    margin-top: 68px;
+    margin-bottom: 53px;
+}
+
+.header2__block1,
+.header2__block2,
+.header2__block3,
+.header2__block4 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 40px;
+}
+
+.header2__block1 {
+    color: #22252c;
+    font-family: Lato;
+    font-size: 63px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 11.25px;
+}
+
+.header2__block2__text {
+    color: #334454;
+    font-family: Lato;
+    font-size: 29px;
+    font-weight: 300;
+}
+
+.header2__block3__text1,
+.header2__block3__text2 {
+    color: #22252c;
+    font-family: Lato;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0.67px;
+}
+
+.header2__block4__text1,
+.header2__block4__text2 {
+    color: #22252c;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.92px;
+}
+
+.main__right {
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+}
+
+.main__left {
+    margin-top: 210px;
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    color: #22252c;
+    font-family: Lato;
+    font-size: 42px;
+    font-weight: 300;
+}
+
+.main__headline1 {
+    margin-top: 100px;
+    font-family: Lato;
+    font-size: 42px;
+}
+
+.main__right {
+    font-family: Lato;
+    font-size: 42px;
+    font-weight: 300;
+}
+
+.main__bottom {
+    margin-top: 70px;
+    padding-left: 15vw;
+}
+
+.footer {
+    padding-left: 50vw;
+}
